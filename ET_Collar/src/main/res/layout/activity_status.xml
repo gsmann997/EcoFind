@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Status">
+
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="227dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="75dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/txtv1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_below="@+id/txtv1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/time"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/updateTime"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_below="@+id/Time"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/noData"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/animalStatus"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/updateTime"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/animal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/animalStatus"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-11dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/noData"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/Lux"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_below="@+id/Status"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/light"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/LuxValue"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_below="@+id/Lux"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/noData"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/Light"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/LuxValue"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/light2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/LightValue"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@+id/Light"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/noData"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/LightValue"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/location"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/LocationValue"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/Location"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="@string/noData"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+</RelativeLayout>
+

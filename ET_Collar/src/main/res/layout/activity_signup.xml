@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/already_user"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="91dp"
+        android:text="@string/alreadyuser"
+        android:textColor="@color/yellow"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:text="@string/signupbutton"
+        android:background="@color/yellow"/>
+
+    <EditText
+        android:id="@+id/unamet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/passwardet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-189dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/suname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwardet"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="233dp"
+        android:gravity="center"
+        android:hint="@string/spass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/emailet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unamet"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="189dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/semail"
+        android:inputType="textEmailAddress" />
+
+
+</RelativeLayout>

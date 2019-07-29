@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">ET-Collar</string>
+    <string name="about">About</string>
+    <string name="map">Map</string>
+    <string name="help">Help!</string>
+    <string name="info">About</string>
+    <string name="settings">Settings</string>
+    <string name="EcoFind">ET-Collar</string>
+    <string name="logo">logo</string>
+    <string name="camera">Camera</string>
+    <string name="tools">Tools</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="status">Status</string>
+    <string name="reports">Report</string>
+    <string name="contactus">Contact Us</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="call">Call</string>
+    <string name="logout">Logout</string>
+    <string name="account">Account</string>
+    <string name="How">How do I print my Animals\'s sensor Data?</string>
+    <string name="go">Go to the Status page and download the report from there.</string>
+    <string name="what">What is the monthly subscription fees?</string>
+    <string name="who">Who is responsible for the heath of the animal?</string>
+    <string name="we">We are just responsible for monitoring the health of the data not fot it\'s health.</string>
+    <string name="cost">$12.99/month</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="signup">Not a user? Click Here!</string>
+
+    <string name="animal_prompt">Choose Animal</string>
+    <string name="null_val">Null</string>
+    <string name="body_temperature">Body Temperature</string>
+    <string name="device_id">Device ID</string>
+    <string name="name">Name</string>
+
+    <string name="Hwak">Hawk</string>
+    <string name="lion">Lion</string>
+    <string name="Platypus">Platypus</string>
+    <string name="to">To:</string>
+    <string name="subject">Subject:</string>
+    <string name="message">Message:</string>
+    <string name="send">Send</string>
+
+    <string name="fpassward">Forgot Passward?</string>
+    <string name="alreadyuser">Back to LogIn!</string>
+    <string name="signupbutton">Sign up!</string>
+    <string name="suname">Username</string>
+    <string name="sname">Name</string>
+    <string name="semail">Email</string>
+    <string name="spass">Password</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
+    <string name="change_passward">Change Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="get_data">Get Data</string>
+    <string name="noData">No Data to Display</string>
+    <string name="time">Last Update Recevied</string>
+    <string name="location">Current Location</string>
+    <string name="temperature">Temperature</string>
+    <string name="light">Lux Readings</string>
+    <string name="light2">Exposure to Light</string>
+    <string name="quit">Quit</string>
+    <string name="exitmessage">Are you sure you want to exit?</string>
+    <string name="exityes">Yes</string>
+    <string name="exitno">No</string>
+
+    <string name="app_info">© 2018 ET-Collar Inc.</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="save">Save</string>
+    <string name="day_mode">Day</string>
+    <string name="night_mode">Night</string>
+    <string name="changes_saves">Changes Saved</string>
+    <string name="portrait">Portrait</string>
+    <string name="rememberme">Remember me</string>
+    <string name="email">Email</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="bck_color">Background Color</string>
+    <string name="chg_lang">Change Language</string>
+    <string name="hello">Hello</string>
+    <string name="txtv1">Animal Data</string>
+    <string name="homepage_text">
+        Electronic Tracking Collar(ET-Collar)\n\n
+        ET-collar is a device that will keep an eye on your pet without any harm to pet. It multisensors are placed in the collar that will record data like if your it is in direct sunlight or at neighbor\'s house and will display that data on your phone.
+        \nThe ET-Collar uses GPS satellites to determine it\'s location then Cellular SMS to send those coordinates back to their servers. We are Canada based company and  have good customer service they called us back within a couple hours to answer some questions we had.
+       \nThe Tracktive Real-time GPS tracker device for pets and other animals will always let you know where your pet is. Check your app in Android to get your pets GPS coordinates.  You can use your smartphone or tablet to sooth your mind when you are not with your pet.\n</string>
+    <string name="pass_change">Password Changed</string>
+    <string name="error">Error</string>
+    <string name="chng_pass">Change Password</string>
+    <string name="loading">Loading...</string>
+    <string name="animal">Animal Status</string>
+    <string name="add_device">Add Device</string>
+    <string name="RData">Select Device Retrive Data</string>
+</resources>

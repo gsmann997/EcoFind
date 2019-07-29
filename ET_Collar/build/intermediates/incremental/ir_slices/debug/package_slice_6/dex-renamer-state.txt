@@ -1,0 +1,4 @@
+#Fri Apr 05 14:39:42 EDT 2019
+base.0=C\:\\Users\\n01149380\\AndroidStudioProjects\\EcoFind\\EcoFind\\ET_Collar\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

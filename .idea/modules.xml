@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ET_Collar/ET_Collar.iml" filepath="$PROJECT_DIR$/ET_Collar/ET_Collar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EcoFind.iml" filepath="$PROJECT_DIR$/EcoFind.iml" />
+    </modules>
+  </component>
+</project>
